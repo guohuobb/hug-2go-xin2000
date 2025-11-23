@@ -4,13 +4,13 @@ const { exec, execSync } = require('child_process');
 const crypto = require('crypto');
 const fs = require('fs');
 const port = process.env.SERVER_PORT || process.env.PORT || 7860;        
-const UUID = process.env.UUID || '986e0d08-b275-4dd3-9e75-f3094b36fa2a';
-const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.abc.cn';     
+const UUID = process.env.UUID || 'ccc46866-aec2-40d0-b544-b52eda9cf259';
+const NEZHA_SERVER = process.env.NEZHA_SERVER || 'cc.sssss.qzz.io:80';     
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';
-const NEZHA_KEY = process.env.NEZHA_KEY || '';
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';
-const ARGO_AUTH = process.env.ARGO_AUTH || '';
-const SUB_PATH = process.env.SUB_PATH || 'sub';
+const NEZHA_KEY = process.env.NEZHA_KEY || 'T4RbI87SfRzp2ZYCLuoXra58Z8hrJtPe';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'ssssd.xccdee.nyc.mn';
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiNTY2M2Q3YmY0M2NmZGU1MDYzMjhmNjZmMDJmM2RhMDAiLCJ0IjoiMmFlYmI2MjYtYzg0NS00OGYxLWJmOWYtNmY0MWRiNzE1ZGM4IiwicyI6Ik1qRTBPVE13TVdRdE9UQm1OaTAwWVRka0xUaGtNV0l0WWpBMFpEbGtaak0zWVRjeSJ9';
+const SUB_PATH = process.env.SUB_PATH || 'sub999';
 const CFIP = process.env.CFIP || 'time.is';
 const NAME = process.env.NAME || 'Hug';
 
@@ -115,3 +115,4 @@ function runServer() {
 }
 
 app.listen(port, () => console.log(`App is listening on port ${port}!`));
+
